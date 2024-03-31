@@ -8,6 +8,7 @@ This is a Flutter client that accesses the same FastAPI-based API that we produc
 
 A few resources to get you started on this specific effort:
 
+Travis Media's [Why You NEED To Learn FastAPI | Hands On Project](https://youtu.be/cbASjoZZGIw?si=QpsWVHCHM9brUv1K)
 
 A few resources to get you started if this is your first Flutter project:
 
