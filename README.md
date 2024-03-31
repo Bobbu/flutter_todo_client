@@ -4,7 +4,7 @@ Simple Flutter todo client to access the fast-todo API.
 
 ## Getting Started
 
-This is a Flutter client that accesses the same FastAPI-based API that we prodcued in Travis Media's tutorial on FastAPI. Since he only provided a React client, I figured this might help others who are more familiar with Flutter/Dart than React.
+This is a Flutter client that accesses the same FastAPI-based API that we produced in Travis Media's tutorial on FastAPI. Since he only provided a React client, I figured this might help others who are more familiar with Flutter/Dart than React.
 
 A few resources to get you started on this specific effort:
 
