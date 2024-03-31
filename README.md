@@ -8,9 +8,12 @@ This is a Flutter client that accesses the same FastAPI-based API that we produc
 
 A few resources to get you started on this specific effort:
 
+Start with this 21 minute tutorial to create a Todo API:
 Travis Media's [Why You NEED To Learn FastAPI | Hands On Project](https://youtu.be/cbASjoZZGIw?si=QpsWVHCHM9brUv1K)
 
-A few resources to get you started if this is your first Flutter project:
+I strongly recommend you move on to the second tutorial that moves from an in-memory/transient list of todos to a SQLlite-based persistent one, the tutorial video you can find at Travis' [Dev Importers Community](https://community.travis.media/).
+
+Finally, here are the default/stock resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
