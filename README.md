@@ -26,6 +26,6 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
-## Depends On
+## Context
 
-<TBD>
+See it in context with related packages in this [diagram of notable logical todo packages](https://lucid.app/documents/view/cccb17ee-2478-4fa2-b544-de293e375241)
