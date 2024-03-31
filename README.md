@@ -4,14 +4,16 @@ Simple Flutter todo client to access the fast-todo API.
 
 ## Getting Started
 
-This is a Flutter client that accesses the same FastAPI-based API that we produced in Travis Media's tutorial on FastAPI. Since he only provided a React client, I figured this might help others who are more familiar with Flutter/Dart than React.
+This Flutter client accesses the same FastAPI-based API that we produced in Travis Media's tutorial on FastAPI. Since he only provided a React client, this might help others who are more familiar with Flutter/Dart than React.
 
-A few resources to get you started on this specific effort:
+Here are a few resources to get you started on this specific effort:
 
-Start with this 21 minute tutorial to create a Todo API:
-Travis Media's [Why You NEED To Learn FastAPI | Hands On Project](https://youtu.be/cbASjoZZGIw?si=QpsWVHCHM9brUv1K)
+Start with this 21-minute tutorial to create a Todo API:
+Travis Media's [Why You NEED To Learn FastAPI | Hands-On Project](https://youtu.be/cbASjoZZGIw?si=QpsWVHCHM9brUv1K)
 
 I strongly recommend you move on to the second tutorial that moves from an in-memory/transient list of todos to a SQLlite-based persistent one, the tutorial video you can find at Travis' [Dev Importers Community](https://community.travis.media/).
+
+I publicly share an implementation of what is taught in the first two tutorials, and I will also make that available here on GitHub.  Clone or download a copy of the [fast-todo repo](https://github.com/Bobbu/fast-todos) if you want to avoid building one yourself.
 
 Finally, here are the default/stock resources to get you started if this is your first Flutter project:
 
