@@ -114,21 +114,6 @@ class _TodosPageState extends State<TodosPage> {
       ),
     ) as Todo;
 
-    // When a BuildContext is used from a StatefulWidget, the mounted property
-    // must be checked after an asynchronous gap.
-
-    // TODO This check ALWAYS resolved as "not mounted" and I could not find a
-    // way around it. That being said, at least the way it was being used --
-    // just to pass data back from the "modal" edit page -- all seems to work on
-    // the surface without the check or short circuit. Should get to the bottom
-    // of this.
-
-    // if (!context.mounted) {
-    //   debugPrint(
-    //       'Context no longer mounted. shorting out through early return.');
-    //   return;
-    // }
-
     setState(() {
       _todos.replaceRange(index, index + 1, [resultingTodo]);
     });

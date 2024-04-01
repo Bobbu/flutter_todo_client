@@ -14,7 +14,11 @@ class TodoEditPage extends StatelessWidget {
     final TodoService ts = TodoService();
     try {
       await ts.saveTodo(todo); // ingore return value since a guranteed update
-      Navigator.pop(context, todo);
+      if (!context.mounted) {
+        debugPrint('BuildContext not mounted.');
+      } else {
+        Navigator.pop(context, todo);
+      }
     } on TodoServiceException catch (ex) {
       final ScaffoldMessengerState? scaffold = appScaffoldKey.currentState;
       final snackBar = SnackBar(content: Text(ex.message));
